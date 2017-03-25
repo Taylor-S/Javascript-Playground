@@ -36,4 +36,4 @@ function convertHTML(str) {
   return str;
 }
 
-console.log(convertHTML("Hamburgers < Pizza < Tacos"));
+// console.log(convertHTML("Hamburgers < Pizza < Tacos"));

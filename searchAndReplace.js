@@ -1,12 +1,12 @@
-function myReplace(str, before, after) {
-    if (before.charAt(0) == before.charAt(0).toUpperCase()){
-        after = after.replace(after.charAt(0), after.charAt(0).toUpperCase());
-        str = str.replace(before, after);
+function searchAndReplace(str, search, replace) {
+    if (search.charAt(0) == search.charAt(0).toUpperCase()){
+        replace = replace.replace(replace.charAt(0), replace.charAt(0).toUpperCase());
+        str = str.replace(search, replace);
     }
     else {
-        str = str.replace(before, after);
+        str = str.replace(search, replace);
     }
-    console.log(str);
+
   return str;
 }
 
@@ -33,5 +33,4 @@ function replace(str, rep) {
 
 // if the first letter the word to be replaced is capital, then first letter of replacing word is too.
 
-console.log(myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped"));
-replace('Rabbit', 'otter');
+// console.log(searchAndReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped"));

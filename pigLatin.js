@@ -24,7 +24,7 @@ function translatePigLatin(str) {
     return str.substring(1, str.length).concat(str.slice(0, 1), "ay");
 }
 
-console.log(translatePigLatin("glove"));
+// console.log(translatePigLatin("glove"));
 
 
 // Problem

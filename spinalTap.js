@@ -37,4 +37,4 @@ function spinalCase(str) {
   return str;
 }
 
-console.log(spinalCase("Teletubbies say Eh-oh"));
+// console.log(spinalCase("This Is Spinal Case"));

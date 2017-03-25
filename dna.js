@@ -20,12 +20,4 @@ console.log(completeArray);
   return completeArray;
 }
 
-console.log(pairElement("GCG"));
-
-// find each letters base pair
-
-// turn string into an array
-
-// create an object of value pairs
-
-// return an array displaying correct base pairs
+// console.log(pairElement("GCG"));

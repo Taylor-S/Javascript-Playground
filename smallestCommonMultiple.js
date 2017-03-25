@@ -39,4 +39,4 @@ function smallestCommons(arr) {
 }
 
 
-console.log(smallestCommons([25, 1]));
+// console.log(smallestCommons([5, 1]));

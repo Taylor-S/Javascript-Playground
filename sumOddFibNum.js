@@ -30,4 +30,4 @@ function sumFibs(num) {
   });
 }
 
-console.log(sumFibs(4));
+// console.log(sumFibs(4));

@@ -26,12 +26,10 @@ function triangleLeft(n){
 // numbers that are divisible by three (n % 3 == 0), print "Fizz" instead of that number
 // numbers that are divisible by 5 (n % 5 ==0), print "Buzz" instead
 // numbers divisible by both 5 & 3 (n % 5 == 0 && n%3 == 0), print Fizz Buzz whilst the others remain tha same.
-function fizzBuzz () {
+function fizzBuzz (n) {
 
     console.log("-----------\n Fizz Buzz \n-----------")
 
-
-    var n = 100,
     output = '';
     for(var i=1; i<(n+1); i++){
         if(i % 5 == 0 && i % 3 ==0) {
@@ -45,14 +43,14 @@ function fizzBuzz () {
         }
         output += "\n" + i;
     }
-    console.log(output);
+    return output;
 }
 
 
 // Goal ChesBoard
 // create an 8X8 grid  ||make a loop to create a row, then loop that 8 times.
 // \n characters to seperate lines
-// each spaceshould be a # or space
+// each space should be a # or space
 
 function chessBoard (n) {
 
@@ -76,7 +74,7 @@ function chessBoard (n) {
     console.log(board);
 }
 
-triangleRight(5);
-triangleLeft(5);
-fizzBuzz();
-chessBoard(8);
+// triangleRight(5);
+// triangleLeft(5);
+// fizzBuzz(100);
+// chessBoard(8);

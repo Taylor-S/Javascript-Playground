@@ -16,10 +16,10 @@ function sumPrimes(num) {
             }
         }
     }
-    console.log("the sum of primes number between 1 and " + num + " is: \n--------------------------------------------------");
+    console.log("the sum of prime number between 1 and " + num + " is: \n-----------------------------------------------");
   return primes.reduce(function(a, b){
       return a + b;
   });
 }
 
-console.log(sumPrimes(100));
+// console.log(sumPrimes(100));

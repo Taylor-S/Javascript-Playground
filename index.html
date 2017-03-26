@@ -18,6 +18,7 @@
                 <p>booWho(bool);</p>
                 <p>Check if a value is classified as a boolean primitive. Returns true or false.</p>
             </div>
+
             <div class="item">
                 <p>convertHTML(str);</p>
                 <p>  Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a string to their corresponding
@@ -25,74 +26,96 @@
                 When testing (") make sure to type (\") with the string. <br>
                 E.g, convertHTML("Hamburgers < Pizza < Tacos");</p>
             </div>
+
             <div class="item">
                 <p>pairElement("GCG");</p>
                 <p>Take each character, get its pair and return the results as a 2d array. Function takes T, A, G, C as arguments <br>
                 For example, for the input GCG, returns [["G", "C"], ["C","G"],["G", "C"]]</p>
             </div>
+
             <div class="item">
                 <p>triangleRight(n);</p>
                 <p>Logs a right angled triangle pointing to the right, height and length dependent on user input (n).<br>
                 For example triangleRight(6); gives a triangle with a height and length of 6</p>
             </div>
+
             <div class="item">
                 <p>triangleLeft(n);</p>
                 <p>Logs a right angled triangle pointing to the right, height and length dependent on user input (n).<br>
                 For example triangleLeft(6); gives a triangle with a height and length of 6</p>
             </div>
+
             <div class="item">
                 <p>fizzBuzz (n);</p>
                 <p>Print all number from 1 to (n), for numbers that are divisible by three print "Fizz".<br>
                     Numbers that are divisible by 5, print "Buzz"<br>
                     Numbers divisible by both 5 & 3 , print "Fizz Buzz" whilst the other integers all remain remain tha same.</p>
             </div>
+
             <div class="item">
                 <p>chessBoard(n);</p>
                 <p>Creates an (n)X(n) chessboard grid. <br>
                 E.g. chessBoard(8);</p>
             </div>
+
             <div class="item">
                 <p>missingLetter(str);</p>
                 <p>Finds the missing letter of a string which is in alphabetical order. <br>
                 E.g. missingLetter("abcdefghjklmno"); <br>
                 returns "i".</p>
             </div>
+
             <div class="item">
                 <p>translatePigLatin(str);</p>
-                <p>Translates the provided string to pig latin. <br>
+                <p style="font-size: 14px;">Translates the provided string to pig latin. <br>
                 Pig Latin takes the first consonant (or consonant cluster)
-                of an English word, moves it to the end of the word and suffixes an "ay".<br>
+                of an English word, moves it to the end of the word and suffixes an "ay". If vowel, adds "way" to end of word<br>
                 E.g, translatePigLatin("glove"); <br>
                 returns "oveglay"</p>
             </div>
+
             <div class="item">
                 <p>searchAndReplace(str, search, replace);</p>
                 <p>Performs a search and replace on a sentence using the arguments provided and returns a new sentence. <br>
                 E.g, searchAndReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped"); returns "A quick brown fox leaped over the lazy dog"</p>
             </div>
+
             <div class="item">
                 <p>smallestCommons(arr);</p>
                 <p>Finds the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters. <br>
                 E.g, smallestCommons([5, 1]); returns 60</p>
             </div>
+
             <div class="item">
                 <p>uniteUnique(arr);</p>
                 <p>finds all unique values in any number of arrays and creates a new array containing all those unique values <br>
                 E.g, uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]); returns Array [ 1, 3, 2, 5, 4 ]</p>
             </div>
+
             <div class="item">
                 <p>spinalCase(str);</p>
                 <p>Converts a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes. <br>
                 spinalCase("This Is Spinal Case"); returns "this-is-spinal-case"</p>
             </div>
+
             <div class="item">
                 <p>sumFibs(num);</p>
                 <p>Given a positive integer (num), returns the sum of all odd Fibonacci numbers that are less than or equal to (num).<br>
                 sumFibs(20) returns 23</p>
             </div>
+
             <div class="item">
                 <p>sumPrimes(num);</p>
                 <p>Sums all the prime numbers up to and including the provided number.</p>
+            </div>
+
+            <div class="item">
+                <p>findElement(arr, func);</p>
+                <p style="font-size: 14px;">A function that looks through an array
+                    (first argument) and returns the first element
+                    in the array that passes a truth test (second argument). <br>
+                    findElement([1, 3, 5, 8, 9, 10], function(num){ return num % 2 === 0; });
+                    <br>returns 8</p>
             </div>
         </div>
         <script src="./bool.js" charset="utf-8" type="text/javascript"></script>
@@ -107,5 +130,6 @@
         <script src="./spinalTap.js" charset="utf-8" type="text/javascript"></script>
         <script src="./sumOddFibNum.js" charset="utf-8" type="text/javascript"></script>
         <script src="./sumOfPrimes.js" charset="utf-8" type="text/javascript"></script>
+        <script src="./findersKeepers.js" charset="utf-8" type="text/javascript"></script>
     </body>
 </html>

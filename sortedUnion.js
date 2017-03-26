@@ -21,7 +21,7 @@ function uniteUnique(arr) {
     return uniqueArr;
 
     ////////////////////////////////////////////////////////
-    // more elegant design of filter method
+    // more elegant design with filter method
 
     // arr = arr.filter(function(index, pos){
     //     return arr.indexOf(index) == pos;
